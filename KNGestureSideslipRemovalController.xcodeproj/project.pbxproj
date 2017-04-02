@@ -13,6 +13,7 @@
 		E10865961E90DE3300B2AF21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10865941E90DE3300B2AF21 /* Main.storyboard */; };
 		E10865981E90DE3300B2AF21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E10865971E90DE3300B2AF21 /* Assets.xcassets */; };
 		E108659B1E90DE3300B2AF21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10865991E90DE3300B2AF21 /* LaunchScreen.storyboard */; };
+		E10865A41E90DFAB00B2AF21 /* KNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E10865A31E90DFAB00B2AF21 /* KNNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		E10865971E90DE3300B2AF21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E108659A1E90DE3300B2AF21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E108659C1E90DE3300B2AF21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E10865A21E90DFAB00B2AF21 /* KNNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNNavigationController.h; sourceTree = "<group>"; };
+		E10865A31E90DFAB00B2AF21 /* KNNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				E108658E1E90DE3300B2AF21 /* AppDelegate.h */,
+				E10865A51E90DFC600B2AF21 /* KNNavigationController */,
 				E108658F1E90DE3300B2AF21 /* AppDelegate.m */,
 				E10865911E90DE3300B2AF21 /* ViewController.h */,
 				E10865921E90DE3300B2AF21 /* ViewController.m */,
@@ -77,6 +81,15 @@
 				E108658C1E90DE3300B2AF21 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E10865A51E90DFC600B2AF21 /* KNNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				E10865A21E90DFAB00B2AF21 /* KNNavigationController.h */,
+				E10865A31E90DFAB00B2AF21 /* KNNavigationController.m */,
+			);
+			name = KNNavigationController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E10865A41E90DFAB00B2AF21 /* KNNavigationController.m in Sources */,
 				E10865931E90DE3300B2AF21 /* ViewController.m in Sources */,
 				E10865901E90DE3300B2AF21 /* AppDelegate.m in Sources */,
 				E108658D1E90DE3300B2AF21 /* main.m in Sources */,
