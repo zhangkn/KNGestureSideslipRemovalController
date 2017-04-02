@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E108658D1E90DE3300B2AF21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E108658C1E90DE3300B2AF21 /* main.m */; };
+		E10865901E90DE3300B2AF21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E108658F1E90DE3300B2AF21 /* AppDelegate.m */; };
+		E10865931E90DE3300B2AF21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E10865921E90DE3300B2AF21 /* ViewController.m */; };
+		E10865961E90DE3300B2AF21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10865941E90DE3300B2AF21 /* Main.storyboard */; };
+		E10865981E90DE3300B2AF21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E10865971E90DE3300B2AF21 /* Assets.xcassets */; };
+		E108659B1E90DE3300B2AF21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10865991E90DE3300B2AF21 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E10865881E90DE3300B2AF21 /* KNGestureSideslipRemovalController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KNGestureSideslipRemovalController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E108658C1E90DE3300B2AF21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E108658E1E90DE3300B2AF21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E108658F1E90DE3300B2AF21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E10865911E90DE3300B2AF21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E10865921E90DE3300B2AF21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E10865951E90DE3300B2AF21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E10865971E90DE3300B2AF21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E108659A1E90DE3300B2AF21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E108659C1E90DE3300B2AF21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E10865851E90DE3300B2AF21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E108657F1E90DE3300B2AF21 = {
+			isa = PBXGroup;
+			children = (
+				E108658A1E90DE3300B2AF21 /* KNGestureSideslipRemovalController */,
+				E10865891E90DE3300B2AF21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E10865891E90DE3300B2AF21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E10865881E90DE3300B2AF21 /* KNGestureSideslipRemovalController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E108658A1E90DE3300B2AF21 /* KNGestureSideslipRemovalController */ = {
+			isa = PBXGroup;
+			children = (
+				E108658E1E90DE3300B2AF21 /* AppDelegate.h */,
+				E108658F1E90DE3300B2AF21 /* AppDelegate.m */,
+				E10865911E90DE3300B2AF21 /* ViewController.h */,
+				E10865921E90DE3300B2AF21 /* ViewController.m */,
+				E10865941E90DE3300B2AF21 /* Main.storyboard */,
+				E10865971E90DE3300B2AF21 /* Assets.xcassets */,
+				E10865991E90DE3300B2AF21 /* LaunchScreen.storyboard */,
+				E108659C1E90DE3300B2AF21 /* Info.plist */,
+				E108658B1E90DE3300B2AF21 /* Supporting Files */,
+			);
+			path = KNGestureSideslipRemovalController;
+			sourceTree = "<group>";
+		};
+		E108658B1E90DE3300B2AF21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E108658C1E90DE3300B2AF21 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10865871E90DE3300B2AF21 /* KNGestureSideslipRemovalController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E108659F1E90DE3300B2AF21 /* Build configuration list for PBXNativeTarget "KNGestureSideslipRemovalController" */;
+			buildPhases = (
+				E10865841E90DE3300B2AF21 /* Sources */,
+				E10865851E90DE3300B2AF21 /* Frameworks */,
+				E10865861E90DE3300B2AF21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KNGestureSideslipRemovalController;
+			productName = KNGestureSideslipRemovalController;
+			productReference = E10865881E90DE3300B2AF21 /* KNGestureSideslipRemovalController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E10865801E90DE3300B2AF21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = hisun;
+				TargetAttributes = {
+					E10865871E90DE3300B2AF21 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = FUV5KWMMAV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E10865831E90DE3300B2AF21 /* Build configuration list for PBXProject "KNGestureSideslipRemovalController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E108657F1E90DE3300B2AF21;
+			productRefGroup = E10865891E90DE3300B2AF21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E10865871E90DE3300B2AF21 /* KNGestureSideslipRemovalController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E10865861E90DE3300B2AF21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E108659B1E90DE3300B2AF21 /* LaunchScreen.storyboard in Resources */,
+				E10865981E90DE3300B2AF21 /* Assets.xcassets in Resources */,
+				E10865961E90DE3300B2AF21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E10865841E90DE3300B2AF21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10865931E90DE3300B2AF21 /* ViewController.m in Sources */,
+				E10865901E90DE3300B2AF21 /* AppDelegate.m in Sources */,
+				E108658D1E90DE3300B2AF21 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E10865941E90DE3300B2AF21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E10865951E90DE3300B2AF21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E10865991E90DE3300B2AF21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E108659A1E90DE3300B2AF21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E108659D1E90DE3300B2AF21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E108659E1E90DE3300B2AF21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E10865A01E90DE3300B2AF21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FUV5KWMMAV;
+				INFOPLIST_FILE = KNGestureSideslipRemovalController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmcc.KNGestureSideslipRemovalController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E10865A11E90DE3300B2AF21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FUV5KWMMAV;
+				INFOPLIST_FILE = KNGestureSideslipRemovalController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmcc.KNGestureSideslipRemovalController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E10865831E90DE3300B2AF21 /* Build configuration list for PBXProject "KNGestureSideslipRemovalController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E108659D1E90DE3300B2AF21 /* Debug */,
+				E108659E1E90DE3300B2AF21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E108659F1E90DE3300B2AF21 /* Build configuration list for PBXNativeTarget "KNGestureSideslipRemovalController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10865A01E90DE3300B2AF21 /* Debug */,
+				E10865A11E90DE3300B2AF21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E10865801E90DE3300B2AF21 /* Project object */;
+}
